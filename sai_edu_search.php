@@ -5,8 +5,8 @@
 	$common = new Common($xoopsDB,$xoopsUser);
 
 	$city  = mb_substr($cityname, 0, 3, "utf-8"); // 取得縣市名稱
-    $index = $_GET['index'];
-// 開始查詢這所學校基本資料
+	$index = $_GET['index'];
+	// 開始查詢這所學校基本資料
 
 	$sql = "SHOW FULL FIELDS FROM schooldata_3295";
 
